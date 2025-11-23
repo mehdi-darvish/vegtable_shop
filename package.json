@@ -1,0 +1,12 @@
+{
+  "name": "vegtable-site",
+  "version": "1.0.0",
+  "dependencies": {
+    "@firecms/neat": "^0.4.0",
+    "swiper": "^11.2.10",
+    "three.js": "^0.77.1"
+  },
+  "scripts": {
+    "server": "json-server --watch db.json --port 3000"
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "AllProducts": [
+    {
+      "id": "1",
+      "title": "Eggplant",
+      "src": "/image/products/images.jpeg",
+      "stars": 3,
+      "company": "VWX company",
+      "price": 12.59,
+      "mostSold": true,
+      "quantity": 1
+    },
+    {
+      "id": "2",
+      "title": "Potato",
+      "src": "/image/products/potato.jpg",
+      "stars": 3,
+      "company": "GHI company",
+      "price": 8.99,
+      "discount": 50,
+      "mostSold": true,
+      "quantity": 1
+    },
+    {
+      "id": "3",
+      "title": "Cucumber",
+      "src": "/image/products/cucumber.jpg",
+      "stars": 1,
+      "company": "JKL company",
+      "price": 7.99,
+      "mostSold": false,
+      "quantity": 1
+    },
+    {
+      "id": "4",
+      "title": "Tomato",
+      "src": "/image/products/potato.jpg",
+      "stars": 4,
+      "company": "MNO company",
+      "price": 15.49,
+      "discount": 30,
+      "mostSold": true,
+      "quantity": 1
+    },
+    {
+      "id": "5",
+      "title": "Lettuce",
+      "src": "/image/products/potato.jpg",
+      "stars": 2,
+      "company": "PQR company",
+      "price": 9.99,
+      "mostSold": false,
+      "quantity": 1
+    },
+    {
+      "id": "6",
+      "title": "Carrot",
+      "src": "/image/products/potato.jpg",
+      "stars": 5,
+      "company": "DEF company",
+      "price": 20.99,
+      "discount": 25,
+      "mostSold": true,
+      "quantity": 1
+    },
+    {
+      "id": "7",
+      "title": "Broccoli",
+      "src": "/image/products/potato.jpg",
+      "stars": 5,
+      "company": "STU company",
+      "price": 18.75,
+      "discount": 20,
+      "mostSold": false,
+      "quantity": 1
+    },
+    {
+      "id": "8",
+      "title": "Bell Pepper",
+      "src": "/image/products/potato.jpg",
+      "stars": 4,
+      "company": "YZA company",
+      "price": 14.29,
+      "discount": 15,
+      "mostSold": false,
+      "quantity": 1
+    },
+    {
+      "id": "9",
+      "title": "Cabbage",
+      "src": "/image/products/potato.jpg",
+      "stars": 4,
+      "company": "ABC company",
+      "price": 13.99,
+      "mostSold": true,
+      "quantity": 1
+    },
+    {
+      "id": "10",
+      "title": "Apple",
+      "src": "/image/products/potato.jpg",
+      "stars": 5,
+      "company": "FruitLand",
+      "price": 22.99,
+      "discount": 10,
+      "mostSold": true,
+      "quantity": 1
+    },
+    {
+      "id": "11",
+      "title": "Onion",
+      "src": "/image/products/onion.png",
+      "stars": 3,
+      "company": "XYZ company",
+      "price": 17.99,
+      "discount": 60,
+      "mostSold": true,
+      "quantity": 1
+    },
+    {
+      "id": "12",
+      "title": "Banana",
+      "src": "/image/products/potato.jpg",
+      "stars": 4,
+      "company": "Tropical Co",
+      "price": 11.49,
+      "mostSold": true,
+      "quantity": 1
+    },
+    {
+      "id": "13",
+      "title": "Orange",
+      "src": "/image/products/potato.jpg",
+      "stars": 3,
+      "company": "Citrus World",
+      "price": 14.99,
+      "discount": 20,
+      "mostSold": false,
+      "quantity": 1
+    },
+    {
+      "id": "14",
+      "title": "Strawberry",
+      "src": "/image/products/potato.jpg",
+      "stars": 5,
+      "company": "Berry Farm",
+      "price": 25.79,
+      "mostSold": false,
+      "quantity": 1
+    },
+    {
+      "id": "15",
+      "title": "Grapes",
+      "src": "/image/products/potato.jpg",
+      "stars": 4,
+      "company": "Vineyard Co",
+      "price": 19.99,
+      "discount": 35,
+      "mostSold": false,
+      "quantity": 1
+    }
+  ],
+  "basket": [
+    {
+      "id": "2",
+      "title": "Potato",
+      "src": "/image/products/potato.jpg",
+      "stars": 3,
+      "company": "GHI company",
+      "price": 8.99,
+      "discount": 50,
+      "mostSold": true,
+      "quantity": 1,
+      "userId": 1
+    },
+    {
+      "id": "4",
+      "title": "Tomato",
+      "src": "/image/products/potato.jpg",
+      "stars": 4,
+      "company": "MNO company",
+      "price": 15.49,
+      "discount": 30,
+      "mostSold": true,
+      "quantity": 1,
+      "userId": 1
+    },
+    {
+      "id": "6",
+      "title": "Carrot",
+      "src": "/image/products/potato.jpg",
+      "stars": 5,
+      "company": "DEF company",
+      "price": 20.99,
+      "discount": 25,
+      "mostSold": true,
+      "quantity": 1,
+      "userId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "7163",
+      "userId": 1,
+      "firstName": "dssd",
+      "lastName": "ddssdds",
+      "phoneNumber": "09380543238",
+      "email": "xxx@gmail.com"
+    },
+    {
+      "id": "1e21",
+      "userId": 2,
+      "firstName": "eeeewd",
+      "lastName": "dscccccccc",
+      "phoneNumber": "0986756785",
+      "email": "xxx@gmail.com"
+    },
+    {
+      "id": "cac4",
+      "userId": 3,
+      "firstName": "dsddddd",
+      "lastName": "ddddddd",
+      "phoneNumber": "0909090907",
+      "email": "333@fdddd.com"
+    },
+    {
+      "id": "cac41",
+      "firstName": "eeeee",
+      "lastName": "eeeeee",
+      "phoneNumber": "09111111111",
+      "email": "cccc@gmail.com"
+    }
+  ],
+  "user": []
+}

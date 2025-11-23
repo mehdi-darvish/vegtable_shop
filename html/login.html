@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="stylesheet" href="../style/login.css">
+</head>
+<body>
+
+
+  <div class="card">
+    <!-- Number form -->
+    <form id="numberForm">
+      <h2>Log in with number</h2>
+      <input id="numberInput" type="tel" placeholder="Enter number" maxlength="15"  required  />
+      <div class="error number-error"></div>
+      <button type="submit">Continue</button>
+      <div class="links-holder">
+        <p class="actions">
+            <a id="toEmail">Or Log in with email</a>
+        </p>
+        <p class="actions">
+            <a class="signup-links" href="signUp.html">Sign up</a>
+        </p>
+      </div>
+    </form>
+
+    <!-- Email form -->
+    <form id="emailForm" class="hidden">
+      <h2>Log in with email</h2>
+      <input id="emailInput" type="email" placeholder="Enter email" maxlength="30" required />
+      <div class="error email-error"></div>
+      <button type="submit">Continue</button>
+      <div class="links-holder">
+        <p class="actions">
+            <a id="toNumber">Back to Number login</a>
+        </p>
+         <p class="actions">
+            <a class="signup-links" href="signUp.html">Sign up</a>
+        </p>
+      </div>
+    </form>
+  </div>
+  
+  <script src="../js/login.js"></script>
+</body>
+</html>

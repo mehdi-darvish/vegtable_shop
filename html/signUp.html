@@ -1,0 +1,37 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Login Page</title>
+  <link rel="stylesheet" href="../style/signUp.css">
+</head>
+<body>
+
+  
+
+<div class="login-container">
+    <h2>Create Account</h2>
+    <form id="signupForm">
+      <input type="text" id="first_name" placeholder="First Name" required>
+      <div class="error" id="firstNameError"></div>
+
+      <input type="text" id="last_name" placeholder="Last Name" required>
+      <div class="error" id="lastNameError"></div>
+
+      <input type="tel" id="mobile" placeholder="Mobile Number" required>
+      <div class="error" id="mobileError"></div>
+
+      <input type="email" id="email" placeholder="Email Address" required>
+      <div class="error" id="emailError"></div>
+
+      <button class="sign-in-button" type="submit">Sign Up</button>
+    </form>
+    <p style="text-align:center;">Already have an account? <a style="color: black;opacity: 0.8;" href="login.html">Login here</a></p>
+  </div>
+
+  
+    
+    <script src="../js/signUp.js"></script>
+</body>
+</html>

@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/userbasket.css">
+</head>
+<body>
+    
+    <canvas id="gradient" style="position: fixed; top:0; left:0; width:100%; height:100vh; z-index:-1;"></canvas>
+
+
+    <!-- navbar -->
+    <nav id="navbar">
+        <!-- hamburger menu btn -->
+         <div id="hamburger-icon-box">
+            <svg id="hamburger-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clip-rule="evenodd" />
+              </svg>
+              
+            </div>
+
+            
+
+        <ul id="navbar-ul">
+            <li>
+                <a href="main.html">Home</a>
+            </li>
+            <li>
+                <a id="userbasket_link" href="#">Your Basket</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Healthy Station</a>
+            </li>
+            <li class="aboutUs-link">
+                <a href="#">About Us</a>
+            </li>
+        </ul>
+
+        <!-- sign account -->
+        <div id="sign-account"></div>
+    </nav>
+
+    <!-- side menu -->
+     
+    <div id="side-menu">
+
+        <svg id="side-menu-X" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+            <path fill-rule="evenodd" d="M5.47 5.47a.75.75 0 0 1 1.06 0L12 10.94l5.47-5.47a.75.75 0 1 1 1.06 1.06L13.06 12l5.47 5.47a.75.75 0 1 1-1.06 1.06L12 13.06l-5.47 5.47a.75.75 0 0 1-1.06-1.06L10.94 12 5.47 6.53a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" />
+          </svg>
+             
+        <h2>Vegtables</h2>
+        <ul id="side-menu-ul">
+        <li id="side-menu-homepage-link">
+            <a href="main.html">Main Page
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path d="M11.47 3.841a.75.75 0 0 1 1.06 0l8.69 8.69a.75.75 0 1 0 1.06-1.061l-8.689-8.69a2.25 2.25 0 0 0-3.182 0l-8.69 8.69a.75.75 0 1 0 1.061 1.06l8.69-8.689Z" />
+                    <path d="m12 5.432 8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 0 1-.75-.75v-4.5a.75.75 0 0 0-.75-.75h-3a.75.75 0 0 0-.75.75V21a.75.75 0 0 1-.75.75H5.625a1.875 1.875 0 0 1-1.875-1.875v-6.198a2.29 2.29 0 0 0 .091-.086L12 5.432Z" />
+                  </svg>
+                  
+            </a>
+        </li>
+        <li>
+            <a href="userbasket.html">Your Basket
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path fill-rule="evenodd" d="M7.5 6v.75H5.513c-.96 0-1.764.724-1.865 1.679l-1.263 12A1.875 1.875 0 0 0 4.25 22.5h15.5a1.875 1.875 0 0 0 1.865-2.071l-1.263-12a1.875 1.875 0 0 0-1.865-1.679H16.5V6a4.5 4.5 0 1 0-9 0ZM12 3a3 3 0 0 0-3 3v.75h6V6a3 3 0 0 0-3-3Zm-3 8.25a3 3 0 1 0 6 0v-.75a.75.75 0 0 1 1.5 0v.75a4.5 4.5 0 1 1-9 0v-.75a.75.75 0 0 1 1.5 0v.75Z" clip-rule="evenodd" />
+                  </svg>
+                  
+            </a>
+        </li>
+        <li>
+            <a href="#">Blog
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path d="M7.5 3.375c0-1.036.84-1.875 1.875-1.875h.375a3.75 3.75 0 0 1 3.75 3.75v1.875C13.5 8.161 14.34 9 15.375 9h1.875A3.75 3.75 0 0 1 21 12.75v3.375C21 17.16 20.16 18 19.125 18h-9.75A1.875 1.875 0 0 1 7.5 16.125V3.375Z" />
+                    <path d="M15 5.25a5.23 5.23 0 0 0-1.279-3.434 9.768 9.768 0 0 1 6.963 6.963A5.23 5.23 0 0 0 17.25 7.5h-1.875A.375.375 0 0 1 15 7.125V5.25ZM4.875 6H6v10.125A3.375 3.375 0 0 0 9.375 19.5H16.5v1.125c0 1.035-.84 1.875-1.875 1.875h-9.75A1.875 1.875 0 0 1 3 20.625V7.875C3 6.839 3.84 6 4.875 6Z" />
+                  </svg>
+                  
+            </a>
+        </li>
+        <li>
+            <a href="#">Healthy Station
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path d="m11.645 20.91-.007-.003-.022-.012a15.247 15.247 0 0 1-.383-.218 25.18 25.18 0 0 1-4.244-3.17C4.688 15.36 2.25 12.174 2.25 8.25 2.25 5.322 4.714 3 7.688 3A5.5 5.5 0 0 1 12 5.052 5.5 5.5 0 0 1 16.313 3c2.973 0 5.437 2.322 5.437 5.25 0 3.925-2.438 7.111-4.739 9.256a25.175 25.175 0 0 1-4.244 3.17 15.247 15.247 0 0 1-.383.219l-.022.012-.007.004-.003.001a.752.752 0 0 1-.704 0l-.003-.001Z" />
+                  </svg>
+                  
+            </a>
+        </li>
+        <li class="sidebar-aboutUs-link">
+            <a href="#">About Us
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                    <path fill-rule="evenodd" d="M4.848 2.771A49.144 49.144 0 0 1 12 2.25c2.43 0 4.817.178 7.152.52 1.978.292 3.348 2.024 3.348 3.97v6.02c0 1.946-1.37 3.678-3.348 3.97a48.901 48.901 0 0 1-3.476.383.39.39 0 0 0-.297.17l-2.755 4.133a.75.75 0 0 1-1.248 0l-2.755-4.133a.39.39 0 0 0-.297-.17 48.9 48.9 0 0 1-3.476-.384c-1.978-.29-3.348-2.024-3.348-3.97V6.741c0-1.946 1.37-3.68 3.348-3.97Z" clip-rule="evenodd" />
+                  </svg>
+                  
+            </a>
+        </li>
+        
+    </div> 
+    
+
+
+  <main class="cart-page">
+
+    <h1 class="cart-title">Your Shopping Cart</h1>
+
+    <!-- container-->
+    <section  class="shop-section" id="shop-section">
+
+      <!-- empty shop -->
+      <div class="empty-cart" id="empty-cart">
+        <p>Your cart is empty.</p>
+        <span><img src="../image/empty-cart.svg" alt=""></span>
+      </div>
+      <!-- محصولات توسط JS اضافه می شوند -->
+      <article class="cart-container"></article>
+     
+      <button class="order-button">Order</button>
+      
+    </section>
+
+    <!-- shop conyainer footer-->
+    <section class="cart-footer">
+      <div class="footer-left">
+        <button id="clear-cart" class="btn-clear">🗑️ Clear All</button>
+      </div>
+
+      <div class="footer-right">
+        <div class="total-price">
+          Total: <span id="total">$0.00</span>
+        </div>
+        <button id="checkout" class="btn-checkout">Checkout</button>
+      </div>
+    </section>
+
+  </main>
+
+
+      <!-- footer -->
+      <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-column">
+          <h3>About Us</h3>
+          <p>We provide high-quality services and products to make your life easier and better every day.</p>
+        </div>
+        <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="main.html">Home</a></li>
+            <li><a href="userbasket.html">Your Basket</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">About Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#">🌐</a>
+            <a href="#">📘</a>
+            <a href="#">🐦</a>
+            <a href="#">📸</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Contact</h3>
+          <p>Email: info@example.com</p>
+          <p>Phone: 123456789</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2025 YourWebsite. All Rights Reserved.
+      </div>
+     </footer>
+
+     <script type="module" src="/js/gradient2.js"></script>
+     <script type="module" src="/js/navbar.js"></script>
+     <script type="module" src="/js/userbasket.js"></script>
+</body>
+</html>
